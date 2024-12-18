@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  margin: 0;
+  padding-block-start: 0px;
+  background-color:rgb(13, 222, 170);
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color:lavender;
+  border-radius: 8px;
+  padding-top:200px;
+}
+
+.input-container{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
+  border-radius:10px;
+  overflow: hidden;
+  margin-top: 0;
+  top:0;
+}
+
+.siva{
+  width:22px;
+  height:22px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.cityInput{
+  flex: 1;
+  height:30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 8px;
+}
+.search-icon{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.siddhu{
+  width:150px;
+  height:150px;
+  padding-top: 0px;
+  
+}
+
+
+.image{
+  text-align: center;;
+  height: 150px;
+  margin-top: 75px;
+}
+
+.temp,.location,.country{
+  margin-top: 8px;
+  font-size: 35px;
+  color:rgb(3, 10, 39);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.temp{
+  font-weight: 500;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 9px;
+}
+
+.location{
+  color: rgb(60, 47, 158);
+  font-weight: 900;
+  font-size: 40px;
+}
+.country{
+  font-size: 18px;
+  font-weight: 900;
+  color: teal;
+}
+
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+font-size: 14px;
+}
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color:midnightblue;
+  padding-top: 5px;
+}
+
+.icon{
+  width:100px;
+  height:100px;
+}
+
+.datacontainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.element{
+  text-align: center;
+  font-weight:1000;
+  color: indigo;
+}
+
+.text{
+  font-size: 18px;
+}
+.copyrights{
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+}
+.copyrights span{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.city-not-found,
+.loading-message,
+.error-message{
+  margin-top: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: hsl(41, 99%, 51%);
+  color: #0a0a0a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.home-button:hover {
+  background-color: #ffffff;
+}
+.home-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
